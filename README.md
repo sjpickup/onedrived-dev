@@ -9,6 +9,15 @@
 [![Code Climate](https://codeclimate.com/github/xybu/onedrived-dev/badges/gpa.svg)](https://codeclimate.com/github/xybu/onedrived-dev)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/93853554008645059a6b17325be4fd6d)](https://www.codacy.com/app/xybu/onedrived-dev?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=xybu/onedrived-dev&amp;utm_campaign=Badge_Grade)
 
+## My (sjpickup) variations on recent Ubuntu:
+
+```sudo apt install build-essential python3-dev libssl-dev inotify-tools python3-dbus libdbus-1-dev libdbus-glib-1-dev
+sudo apt install gnome-keyring
+eval `gnome-keyring-daemon`
+eval `dbus-launch`
+# install ngrok from own website, install in /usr/local/bin
+```
+
 ## Introduction
 
 `onedrived` is a client program for [Microsoft OneDrive](https://onedrive.com)
